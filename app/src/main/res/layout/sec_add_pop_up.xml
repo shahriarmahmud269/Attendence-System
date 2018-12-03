@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:gravity="center">
+        <TextView
+                android:text="Section Name"
+                android:textSize="25dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView4"/>
+
+        <EditText
+                android:id="@+id/get_sec_name"
+                android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Student Roll"
+        />
+
+        <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:hint="From"
+                android:id="@+id/roll_from"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:hint="To"
+                android:id="@+id/roll_to"/>
+        <Button
+
+                android:id="@+id/adv_op_sec"
+                android:textSize="25dp"
+                android:text="Advacnce"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <Button
+                android:id="@+id/create_btn"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="25dp"
+                android:text="Create"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
